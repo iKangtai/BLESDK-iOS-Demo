@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+def pods
+    pod 'SVProgressHUD'
+end
+
+target 'BLESDK-iOS-Demo' do
+    pods
+end

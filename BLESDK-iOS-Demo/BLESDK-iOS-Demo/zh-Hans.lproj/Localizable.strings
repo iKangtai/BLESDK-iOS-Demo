@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  BLESDK-iOS-Demo
+
+  Created by mac on 2019/2/22.
+  Copyright © 2019 ikangtai. All rights reserved.
+*/
+
+"kConst_RomTest" = "Rom 测试";
+"kConst_TemperatureTest" = "温度上传测试";
+"kConst_TestResultUpload" = "上传测试结果";
+"kConst_GetMACAddress" = "获取 MAC 地址";
+"kConst_GetFirmwareVersion" = "获取固件版本";
+"kConst_SetTime" = "设置时间";
+"kConst_SetAlarm" = "设置闹钟";
+"kConst_Binding" = "绑定";
+"kConst_GetPower" = "获取电量";
+"kConst_SetTemperatureTypeF" = "设为华氏度℉";
+"kConst_SetTemperatureTypeC" = "设为摄氏度℃";
+"kConst_ClearAllData" = "清空温度";
+"kConst_HomepageTitleEH" = "A31海外版产线用app";
+"kConst_HomepageTitle" = "A31国内版产线用app";
+"kConst_OK" = "确定";
+"kConst_Cancel" = "取消";
+"kConst_Warning" = "⚠️警告";
+"kConst_GoToNextSet" = "即将进行下一组测试，请确认这一组已经测试完成！";
+"kConst_StartToDo" = "开始 %@...";
+"kConst_SuccessAndElecIs" = "成功，电量是: %@";
+"kConst_SuccessButIsTooFast" = "%@ 成功，但耗电过快，电量是: %@";
+"kConst_Succeed" = "成功";
+"kConst_Fail" = "失败";
+"kConst_ErrorOccurred" = "根据类型获取模型错误！";
+"kConst_ResultsNotUploaded" = "%@ 条测试结果未上传";
+"kConst_Uploading" = "正在上传";
+"kConst_NoTemperature" = "没有获取到温度！";
+
+"kConst_Number" = "%@ 号蓝牙连接";
+"kConst_ScanFailed" = "开启蓝牙扫描失败！";

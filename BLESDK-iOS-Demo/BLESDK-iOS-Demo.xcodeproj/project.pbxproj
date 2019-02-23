@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040F25AF221FFE9D00BD8944 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F25AE221FFE9D00BD8944 /* AppDelegate.m */; };
+		040F25B2221FFE9D00BD8944 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F25B1221FFE9D00BD8944 /* ViewController.m */; };
+		040F25B5221FFE9D00BD8944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040F25B3221FFE9D00BD8944 /* Main.storyboard */; };
+		040F25B7221FFEA000BD8944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040F25B6221FFEA000BD8944 /* Assets.xcassets */; };
+		040F25BA221FFEA000BD8944 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040F25B8221FFEA000BD8944 /* LaunchScreen.storyboard */; };
+		040F25BD221FFEA000BD8944 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F25BC221FFEA000BD8944 /* main.m */; };
+		040F25C7221FFEA000BD8944 /* BLESDK_iOS_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F25C6221FFEA000BD8944 /* BLESDK_iOS_DemoTests.m */; };
+		040F25D9221FFF1400BD8944 /* YCAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F25D1221FFF1300BD8944 /* YCAlertController.m */; };
+		040F25DA221FFF1400BD8944 /* YCViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F25D2221FFF1400BD8944 /* YCViewController+Extension.m */; };
+		040F25E0221FFFB200BD8944 /* BLEThermometer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040F25DD221FFF8600BD8944 /* BLEThermometer.framework */; };
+		040F25E1221FFFB200BD8944 /* BLEThermometer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 040F25DD221FFF8600BD8944 /* BLEThermometer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		040F25E72220083600BD8944 /* FUThemTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F25E62220083600BD8944 /* FUThemTestModel.m */; };
+		040F25EA222008F300BD8944 /* FUConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F25E9222008F300BD8944 /* FUConstants.m */; };
+		040F25ED22200E8900BD8944 /* FURomTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F25EC22200E8900BD8944 /* FURomTestModel.m */; };
+		0469CAC3222011DF00D8B533 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0469CAC5222011DF00D8B533 /* Localizable.strings */; };
+		969C128EB6039EB2E6C3D631 /* libPods-BLESDK-iOS-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0796E2B0B47D14223BF60FE2 /* libPods-BLESDK-iOS-Demo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		040F25C3221FFEA000BD8944 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040F25A2221FFE9D00BD8944 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040F25A9221FFE9D00BD8944;
+			remoteInfo = "BLESDK-iOS-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		040F25E2221FFFB200BD8944 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				040F25E1221FFFB200BD8944 /* BLEThermometer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		020042D92B0CC444CE6F687E /* Pods-BLESDK-iOS-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLESDK-iOS-Demo.release.xcconfig"; path = "Target Support Files/Pods-BLESDK-iOS-Demo/Pods-BLESDK-iOS-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		040F25AA221FFE9D00BD8944 /* BLESDK-iOS-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BLESDK-iOS-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		040F25AD221FFE9D00BD8944 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		040F25AE221FFE9D00BD8944 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		040F25B0221FFE9D00BD8944 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		040F25B1221FFE9D00BD8944 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		040F25B4221FFE9D00BD8944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		040F25B6221FFEA000BD8944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040F25B9221FFEA000BD8944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		040F25BB221FFEA000BD8944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040F25BC221FFEA000BD8944 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		040F25C2221FFEA000BD8944 /* BLESDK-iOS-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BLESDK-iOS-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		040F25C6221FFEA000BD8944 /* BLESDK_iOS_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLESDK_iOS_DemoTests.m; sourceTree = "<group>"; };
+		040F25C8221FFEA000BD8944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040F25D1221FFF1300BD8944 /* YCAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCAlertController.m; sourceTree = "<group>"; };
+		040F25D2221FFF1400BD8944 /* YCViewController+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YCViewController+Extension.m"; sourceTree = "<group>"; };
+		040F25D5221FFF1400BD8944 /* YCAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCAlertController.h; sourceTree = "<group>"; };
+		040F25D7221FFF1400BD8944 /* YCViewController+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YCViewController+Extension.h"; sourceTree = "<group>"; };
+		040F25DD221FFF8600BD8944 /* BLEThermometer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BLEThermometer.framework; sourceTree = "<group>"; };
+		040F25E52220083600BD8944 /* FUThemTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUThemTestModel.h; sourceTree = "<group>"; };
+		040F25E62220083600BD8944 /* FUThemTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUThemTestModel.m; sourceTree = "<group>"; };
+		040F25E8222008F300BD8944 /* FUConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUConstants.h; sourceTree = "<group>"; };
+		040F25E9222008F300BD8944 /* FUConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUConstants.m; sourceTree = "<group>"; };
+		040F25EB22200E8900BD8944 /* FURomTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FURomTestModel.h; sourceTree = "<group>"; };
+		040F25EC22200E8900BD8944 /* FURomTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FURomTestModel.m; sourceTree = "<group>"; };
+		0469CABF2220118D00D8B533 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		0469CAC02220118D00D8B533 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		0469CAC4222011DF00D8B533 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0469CAC6222011E000D8B533 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		0796E2B0B47D14223BF60FE2 /* libPods-BLESDK-iOS-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BLESDK-iOS-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4515B3326D988A4C7E142B79 /* Pods-BLESDK-iOS-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLESDK-iOS-Demo.debug.xcconfig"; path = "Target Support Files/Pods-BLESDK-iOS-Demo/Pods-BLESDK-iOS-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040F25A7221FFE9D00BD8944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040F25E0221FFFB200BD8944 /* BLEThermometer.framework in Frameworks */,
+				969C128EB6039EB2E6C3D631 /* libPods-BLESDK-iOS-Demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040F25BF221FFEA000BD8944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040F25A1221FFE9D00BD8944 = {
+			isa = PBXGroup;
+			children = (
+				040F25DF221FFF9600BD8944 /* Frameworks */,
+				040F25AC221FFE9D00BD8944 /* BLESDK-iOS-Demo */,
+				040F25C5221FFEA000BD8944 /* BLESDK-iOS-DemoTests */,
+				040F25AB221FFE9D00BD8944 /* Products */,
+				C457C0B0C9E2E2A50DF86F6B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		040F25AB221FFE9D00BD8944 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040F25AA221FFE9D00BD8944 /* BLESDK-iOS-Demo.app */,
+				040F25C2221FFEA000BD8944 /* BLESDK-iOS-DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040F25AC221FFE9D00BD8944 /* BLESDK-iOS-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				040F25AD221FFE9D00BD8944 /* AppDelegate.h */,
+				040F25AE221FFE9D00BD8944 /* AppDelegate.m */,
+				040F25B0221FFE9D00BD8944 /* ViewController.h */,
+				040F25B1221FFE9D00BD8944 /* ViewController.m */,
+				040F25D5221FFF1400BD8944 /* YCAlertController.h */,
+				040F25D1221FFF1300BD8944 /* YCAlertController.m */,
+				040F25D7221FFF1400BD8944 /* YCViewController+Extension.h */,
+				040F25D2221FFF1400BD8944 /* YCViewController+Extension.m */,
+				040F25E8222008F300BD8944 /* FUConstants.h */,
+				040F25E9222008F300BD8944 /* FUConstants.m */,
+				040F25EB22200E8900BD8944 /* FURomTestModel.h */,
+				040F25EC22200E8900BD8944 /* FURomTestModel.m */,
+				040F25E52220083600BD8944 /* FUThemTestModel.h */,
+				040F25E62220083600BD8944 /* FUThemTestModel.m */,
+				040F25B3221FFE9D00BD8944 /* Main.storyboard */,
+				040F25B6221FFEA000BD8944 /* Assets.xcassets */,
+				040F25B8221FFEA000BD8944 /* LaunchScreen.storyboard */,
+				040F25BB221FFEA000BD8944 /* Info.plist */,
+				040F25BC221FFEA000BD8944 /* main.m */,
+				0469CAC5222011DF00D8B533 /* Localizable.strings */,
+			);
+			path = "BLESDK-iOS-Demo";
+			sourceTree = "<group>";
+		};
+		040F25C5221FFEA000BD8944 /* BLESDK-iOS-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				040F25C6221FFEA000BD8944 /* BLESDK_iOS_DemoTests.m */,
+				040F25C8221FFEA000BD8944 /* Info.plist */,
+			);
+			path = "BLESDK-iOS-DemoTests";
+			sourceTree = "<group>";
+		};
+		040F25DF221FFF9600BD8944 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				040F25DD221FFF8600BD8944 /* BLEThermometer.framework */,
+				0796E2B0B47D14223BF60FE2 /* libPods-BLESDK-iOS-Demo.a */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		C457C0B0C9E2E2A50DF86F6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4515B3326D988A4C7E142B79 /* Pods-BLESDK-iOS-Demo.debug.xcconfig */,
+				020042D92B0CC444CE6F687E /* Pods-BLESDK-iOS-Demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040F25A9221FFE9D00BD8944 /* BLESDK-iOS-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040F25CB221FFEA000BD8944 /* Build configuration list for PBXNativeTarget "BLESDK-iOS-Demo" */;
+			buildPhases = (
+				17C303A314716993199C55E4 /* [CP] Check Pods Manifest.lock */,
+				040F25A6221FFE9D00BD8944 /* Sources */,
+				040F25A7221FFE9D00BD8944 /* Frameworks */,
+				040F25A8221FFE9D00BD8944 /* Resources */,
+				040F25E2221FFFB200BD8944 /* Embed Frameworks */,
+				0A06BEFFA43A250F7FD85796 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BLESDK-iOS-Demo";
+			productName = "BLESDK-iOS-Demo";
+			productReference = 040F25AA221FFE9D00BD8944 /* BLESDK-iOS-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		040F25C1221FFEA000BD8944 /* BLESDK-iOS-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040F25CE221FFEA000BD8944 /* Build configuration list for PBXNativeTarget "BLESDK-iOS-DemoTests" */;
+			buildPhases = (
+				040F25BE221FFEA000BD8944 /* Sources */,
+				040F25BF221FFEA000BD8944 /* Frameworks */,
+				040F25C0221FFEA000BD8944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040F25C4221FFEA000BD8944 /* PBXTargetDependency */,
+			);
+			name = "BLESDK-iOS-DemoTests";
+			productName = "BLESDK-iOS-DemoTests";
+			productReference = 040F25C2221FFEA000BD8944 /* BLESDK-iOS-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040F25A2221FFE9D00BD8944 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ikangtai;
+				TargetAttributes = {
+					040F25A9221FFE9D00BD8944 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					040F25C1221FFEA000BD8944 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 040F25A9221FFE9D00BD8944;
+					};
+				};
+			};
+			buildConfigurationList = 040F25A5221FFE9D00BD8944 /* Build configuration list for PBXProject "BLESDK-iOS-Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 040F25A1221FFE9D00BD8944;
+			productRefGroup = 040F25AB221FFE9D00BD8944 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040F25A9221FFE9D00BD8944 /* BLESDK-iOS-Demo */,
+				040F25C1221FFEA000BD8944 /* BLESDK-iOS-DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040F25A8221FFE9D00BD8944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040F25BA221FFEA000BD8944 /* LaunchScreen.storyboard in Resources */,
+				0469CAC3222011DF00D8B533 /* Localizable.strings in Resources */,
+				040F25B7221FFEA000BD8944 /* Assets.xcassets in Resources */,
+				040F25B5221FFE9D00BD8944 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040F25C0221FFEA000BD8944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A06BEFFA43A250F7FD85796 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BLESDK-iOS-Demo/Pods-BLESDK-iOS-Demo-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BLESDK-iOS-Demo/Pods-BLESDK-iOS-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17C303A314716993199C55E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BLESDK-iOS-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040F25A6221FFE9D00BD8944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040F25B2221FFE9D00BD8944 /* ViewController.m in Sources */,
+				040F25BD221FFEA000BD8944 /* main.m in Sources */,
+				040F25D9221FFF1400BD8944 /* YCAlertController.m in Sources */,
+				040F25AF221FFE9D00BD8944 /* AppDelegate.m in Sources */,
+				040F25E72220083600BD8944 /* FUThemTestModel.m in Sources */,
+				040F25ED22200E8900BD8944 /* FURomTestModel.m in Sources */,
+				040F25EA222008F300BD8944 /* FUConstants.m in Sources */,
+				040F25DA221FFF1400BD8944 /* YCViewController+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040F25BE221FFEA000BD8944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040F25C7221FFEA000BD8944 /* BLESDK_iOS_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		040F25C4221FFEA000BD8944 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040F25A9221FFE9D00BD8944 /* BLESDK-iOS-Demo */;
+			targetProxy = 040F25C3221FFEA000BD8944 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		040F25B3221FFE9D00BD8944 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040F25B4221FFE9D00BD8944 /* Base */,
+				0469CABF2220118D00D8B533 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		040F25B8221FFEA000BD8944 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040F25B9221FFEA000BD8944 /* Base */,
+				0469CAC02220118D00D8B533 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0469CAC5222011DF00D8B533 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0469CAC4222011DF00D8B533 /* en */,
+				0469CAC6222011E000D8B533 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		040F25C9221FFEA000BD8944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		040F25CA221FFEA000BD8944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040F25CC221FFEA000BD8944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4515B3326D988A4C7E142B79 /* Pods-BLESDK-iOS-Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YL5HCBTF4V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "BLESDK-iOS-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ikangtai.BLESDK-iOS-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		040F25CD221FFEA000BD8944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 020042D92B0CC444CE6F687E /* Pods-BLESDK-iOS-Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YL5HCBTF4V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "BLESDK-iOS-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ikangtai.BLESDK-iOS-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		040F25CF221FFEA000BD8944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YL5HCBTF4V;
+				INFOPLIST_FILE = "BLESDK-iOS-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ikangtai.BLESDK-iOS-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLESDK-iOS-Demo.app/BLESDK-iOS-Demo";
+			};
+			name = Debug;
+		};
+		040F25D0221FFEA000BD8944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YL5HCBTF4V;
+				INFOPLIST_FILE = "BLESDK-iOS-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ikangtai.BLESDK-iOS-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLESDK-iOS-Demo.app/BLESDK-iOS-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040F25A5221FFE9D00BD8944 /* Build configuration list for PBXProject "BLESDK-iOS-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040F25C9221FFEA000BD8944 /* Debug */,
+				040F25CA221FFEA000BD8944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040F25CB221FFEA000BD8944 /* Build configuration list for PBXNativeTarget "BLESDK-iOS-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040F25CC221FFEA000BD8944 /* Debug */,
+				040F25CD221FFEA000BD8944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040F25CE221FFEA000BD8944 /* Build configuration list for PBXNativeTarget "BLESDK-iOS-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040F25CF221FFEA000BD8944 /* Debug */,
+				040F25D0221FFEA000BD8944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040F25A2221FFE9D00BD8944 /* Project object */;
+}

@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  BLESDK-iOS-Demo
+
+  Created by mac on 2019/2/22.
+  Copyright © 2019 ikangtai. All rights reserved.
+*/
+
+"kConst_RomTest" = "Rom Test";
+"kConst_TemperatureTest" = "Upload Temperature Test";
+"kConst_TestResultUpload" = "Upload Test Result To Cloud";
+"kConst_GetMACAddress" = "Get MAC Address";
+"kConst_GetFirmwareVersion" = "Get Firmware Version";
+"kConst_SetTime" = "Set Time";
+"kConst_SetAlarm" = "Set Alarm";
+"kConst_Binding" = "Bind";
+"kConst_GetPower" = "Get Electricity";
+"kConst_SetTemperatureTypeF" = "Set Type to ℉";
+"kConst_SetTemperatureTypeC" = "Set Type to ℃";
+"kConst_ClearAllData" = "Clear All Data";
+"kConst_HomepageTitleEH" = "A31-FU-EH";
+"kConst_HomepageTitle" = "A31-FU";
+"kConst_OK" = "OK";
+"kConst_Cancel" = "Cancel";
+"kConst_Warning" = "⚠️Warning";
+"kConst_GoToNextSet" = "The next set of tests is about to take place. Please confirm that this group has been tested!";
+"kConst_StartToDo" = "Start %@...";
+"kConst_SuccessAndElecIs" = "Succeed, and the electricity is %@";
+"kConst_SuccessButIsTooFast" = "%@ succeed, but the power consumption is too fast, electricity is: %@";
+"kConst_Succeed" = "Succeed";
+"kConst_Fail" = "Failed";
+"kConst_ErrorOccurred" = "An error occurred";
+"kConst_ResultsNotUploaded" = "%@ results not uploaded";
+"kConst_Uploading" = "Uploading";
+"kConst_NoTemperature" = "No temperature was obtained!";
+
+"kConst_Number" = "No. %@";
+"kConst_ScanFailed" = "Bluetooth scan failed!";

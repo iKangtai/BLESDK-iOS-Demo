@@ -1,0 +1,6 @@
+framework module BLEThermometer {
+  umbrella header "BLEThermometer.h"
+
+  export *
+  module * { export * }
+}
